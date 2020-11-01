@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="sgrudbmodel" id="2EEF4C52-E389-8868-5919-6F719B6668DA" version="3.5">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 18:14:40 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2EEF4C52-E389-8868-5919-6F719B6668DA</designId>
+</OSDM_Design>

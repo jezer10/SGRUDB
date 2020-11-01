@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="67D751A7-4521-BFB1-09B6-4095467F250E" mainViewID="18268F87-FEB9-C3A4-F2E3-87C5E1251798">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 18:14:40 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
