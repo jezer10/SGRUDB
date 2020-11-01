@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A6792C6-2192-CB70-9150-64BA7AE170DC" name="Persona">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:44:57 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idpersona" id="D15DF91C-CF9E-B91F-B6BA-A9B511252E8A">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:46:39 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="3E0A8F89-E356-BC10-6B25-1BF04C9AD1E3">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:46:46 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="36E631ED-6627-A5A0-0C0E-C9D2C0720FB6">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:46:53 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ndoc" id="2C82EA8A-FD22-3E84-F5EB-A5B9F1C130FD">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:47:01 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="3F55FA4D-95CA-DD3A-4F82-68F9F4D8A1C2">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:47:04 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idtipo_doc" id="73B5BCC4-7D24-D517-247F-8241408536D4">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:52:54 UTC</createdTime>
+<generatorID>A0951FD3-50C1-368D-B457-2D8BD5086132</generatorID>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<referedAttribute>F95CB614-BE7E-25C6-5C2E-5BD1C75068C7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E688A79-100C-0407-032A-FCB2E0B0266C" name="PERSONA PK">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:47:22 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D15DF91C-CF9E-B91F-B6BA-A9B511252E8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

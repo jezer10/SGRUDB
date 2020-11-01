@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="A0951FD3-50C1-368D-B457-2D8BD5086132">
+<createdBy>ACER</createdBy>
+<createdTime>2020-11-01 20:52:41 UTC</createdTime>
+<ownerDesignName>sgrudbmodel</ownerDesignName>
+<engineerTo>
+<item key="67E4D2CC-F8A6-440E-58ED-FE74D385E888" value="true"/>
+</engineerTo>
+<sourcePk>7418E48D-DD1A-9B19-312A-4A75CF5C49AC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F5606F94-85F7-4BCF-9056-47906449F62F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1A6792C6-2192-CB70-9150-64BA7AE170DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
